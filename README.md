@@ -8,11 +8,14 @@
 数据集：高通Jester
 
 姿态估计算法：谷歌Mediapipe
+
 ![Mediapipe检测效果](example.gif)
+
 原始模型：ST-GCN（https://github.com/yysijie/st-gcn）
 
 ## 关键点可视化
 随机选取一个样本进行可视化
+
 https://github.com/user-attachments/assets/413836fa-fb95-42bc-82d0-309ec7951ed0
 
 https://github.com/user-attachments/assets/c51e2d90-3229-48d3-a341-60668f7f3518
