@@ -1,4 +1,4 @@
-# Jester-Processing
+# Gesture_Recognition
 通过mediapipe对高通Jester数据集做简单的关键点检测与可视化，将RGB视频流数据转化为手部骨架数据
 
 基于ST-GCN实现手势识别：在原模型的基础上进行了修改，使网络适配手部的关键点结构。
@@ -13,15 +13,15 @@
 
 ## 关键点可视化
 
-https://github.com/user-attachments/assets/3be650e8-07e0-4a8d-bc7c-9ee9ec44e76b
 https://github.com/user-attachments/assets/413836fa-fb95-42bc-82d0-309ec7951ed0
+
 https://github.com/user-attachments/assets/c51e2d90-3229-48d3-a341-60668f7f3518
 
 ## 训练曲线
 
-![准确率](1)
+![准确率](val_test_accuracy_curve_4.png)
 
-![Loss](1)
+![Loss](training_loss_curve_4.png)
 
 ## 文件结构 (File Structure)
 
