@@ -5,8 +5,14 @@
 
 ```bash
 .
+├── log/                           # 训练日志
+├── st-gcn/                        # 模型定义(修改ST-GCN使其适配手部拓扑结构)
+├── log/                           # 训练日志
 ├── 标注/                          # 开源社区找到的Jester标注（Test未公开）
-├── npy_visualizations/            # npy_check的结果展示
 ├── classfy_dataset.py             # 基于标注划分数据集
-├── keypoint_extraction.py         # 对视频数据进行关键点检测，保存结果并在原视频上可视化
-└── npy_check.py                   # 对上一个脚本保存的关键点npy文件进行2D与3D可视化
+├── process_dataset.py             # 数据预处理
+├── keypoint_extraction_v5.py      # 对视频数据进行关键点检测，保存结果并在原视频上可视化
+├── npy_visualizations/            # npy_check的结果展示
+├── try_v5.py                      # 基于标注划分数据集
+├── v_log_v2.py                    # 日志可视化
+└── qianduan.py                    # 搭建简单的前端窗口，针对单个数据样本实现模型的调用推理
