@@ -1,6 +1,12 @@
 # Jester-Processing
 基于mediapipe对高通Jester数据集做简单的关键点检测与可视化，将RGB视频流数据转化为手部骨架数据
 
+本项目基于ST-GCN实现手势识别：在原模型的基础上进行了修改，使网络适配手部的关键点结构。
+未来会实现笔记本前置摄像头实现手势识别的系统。
+
+数据集：高通Jester
+姿态估计算法：谷歌Mediapipe
+原始模型：ST-GCN（https://github.com/yysijie/st-gcn）
 ## 文件结构 (File Structure)
 
 ```bash
