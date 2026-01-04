@@ -4,11 +4,18 @@
 基于ST-GCN实现手势识别：在原模型的基础上进行了修改，使网络适配手部的关键点结构。
 未来会实现笔记本前置摄像头实现手势识别的系统。
 
+![准确率](1)
+![Loss](1)
+
 数据集：高通Jester
 
 姿态估计算法：谷歌Mediapipe
 
 原始模型：ST-GCN（https://github.com/yysijie/st-gcn）
+
+https://github.com/user-attachments/assets/413836fa-fb95-42bc-82d0-309ec7951ed0
+
+https://github.com/user-attachments/assets/c51e2d90-3229-48d3-a341-60668f7f3518
 
 ## 文件结构 (File Structure)
 
