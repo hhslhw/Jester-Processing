@@ -1,0 +1,2 @@
+# Jester-Processing
+基于mediapipe对高通Jester数据集做简单的关键点检测与可视化，将RGB视频流数据转化为手部骨架数据
