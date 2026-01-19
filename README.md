@@ -28,9 +28,14 @@ https://github.com/user-attachments/assets/c51e2d90-3229-48d3-a341-60668f7f3518
 
 ## 实时系统
 
+我搭建了简易的实时检测系统，当手部关键点基本不动时处于静止判定状态。当手部运动超过阈值，则会进入即将检测状态，随后将强制进行手部检测。
+
+画面左上角为系统状态，画面右上角为手势类别及其置信度（可保存当前与前两次的检测结果）。
+
 https://github.com/user-attachments/assets/8c2c3b02-58a9-442d-8910-bcae778ea550
 
-![Loss](2.mp4)
+https://github.com/user-attachments/assets/bb540725-5f0a-4e87-a38b-2498c95f934a
+
 
 ## 文件结构 (File Structure)
 
@@ -45,5 +50,6 @@ https://github.com/user-attachments/assets/8c2c3b02-58a9-442d-8910-bcae778ea550
 ├── keypoint_extraction_v5.py      # 对视频数据进行关键点检测，保存结果并在原视频上可视化
 ├── npy_check/                     # keypoint_extraction_v5.py的关键点进行2D与3D可视化 
 ├── try_v5.py                      # 训练代码
+├── real_time_v2.py                # 调用笔记本前置摄像头实时识别手势
 ├── v_log_v2.py                    # 日志可视化
 └── qianduan.py                    # 搭建简单的前端窗口，针对单个数据样本实现模型的调用推理
