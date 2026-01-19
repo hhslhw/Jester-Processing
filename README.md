@@ -26,6 +26,10 @@ https://github.com/user-attachments/assets/c51e2d90-3229-48d3-a341-60668f7f3518
 
 ![Loss](training_loss_curve_4.png)
 
+## 实时系统
+
+![demo展示](2.MP4)
+
 ## 文件结构 (File Structure)
 
 ```bash
